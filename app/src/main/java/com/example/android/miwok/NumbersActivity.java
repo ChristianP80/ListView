@@ -36,6 +36,7 @@ public class NumbersActivity extends AppCompatActivity {
         words.add("nineteen");
         words.add("twenty");
 
+        //TEST
         ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, words);
 
         ListView listView = (ListView) findViewById(R.id.list);
